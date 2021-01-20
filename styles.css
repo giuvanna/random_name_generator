@@ -1,0 +1,55 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  overflow: hidden;
+}
+h2 {
+  font-weight: 400;
+}
+.random-generator {
+  background: transparent;
+  border-radius: 20px;
+  width: 50%;
+  height: 400px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+header {
+  margin: auto;
+  width: 9%;
+}
+
+.btn {
+  background: white;
+}
+select {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+  border: 0px solid black;
+  border-radius: 0px;
+  width: 400px;
+  height: 40px;
+}
+option {
+  font-size: 16px;
+  font-weight: 100;
+  color: black;
+  background: white;
+  border-radius: 20px;
+}
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
